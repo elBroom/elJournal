@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'RobotoLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/Roboto-Light.ttf');
+}
+@font-face {
+	font-family: 'RobotoRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: RobotoBold;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/Roboto-Bold.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #eee;
+	font-family: RobotoLight, Arial, Helvetica, sans-serif;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 900px;
+}
+header{
+	background: url(img/h-bg.png) repeat-x;
+	height: 235px;
+}
+header .logo{
+	float: right;
+	margin-top: 20px;
+}
+header .contacts{
+	font-family: RobotoRegular, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+header .contacts p{
+	margin-top: 10px;
+}
+header .contacts a{
+	color: inherit;
+}
+header .title{
+	font-size: 50px;
+	margin-top: 80px;
+}
+#content{
+	background: #eee;
+	padding-top: 20px;
+}
+#content .allComments{
+	border-bottom: 2px solid #dedede;	
+}
+#content .commment{
+	margin-bottom: 20px;
+}
+#content .commment .name{
+	font-family: RobotBold, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-right: 40px;
+}
+#content .commment .time, #content .commment .date{
+	font-size: 12px;
+	margin-right: 10px;
+}
+#content .commment .text{
+	margin: 8px 0;
+}
+#content .respons{
+	margin-bottom: 40px;
+	width: 400px;
+}
+#content .respons .title{
+	font-family: RobotBold, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	margin: 20px 0;
+}
+#content .respons p{
+	margin: 10px 0;
+}
+#content .respons input, #content .respons textarea{
+	border: 0;
+	border-radius: 3px;
+}
+#content .respons input{
+	padding: 10px;
+	width: 380px;
+}
+#content .respons textarea, #content .respons button{
+	background: transparent;
+	border: 2px solid #000;
+}
+#content .respons textarea{
+	height: 90px;
+	padding: 8px;
+	width: 380px;
+}
+#content .respons button{
+	border-radius: 3px;
+	float: right;
+	font-size: 13px;
+	margin-top: 5px;
+	padding: 5px 10px;
+}
+footer{
+	background: #f9f9f9;
+	font-size: 12px;
+}
+footer .logo{
+	float: left;
+	height: 106px;
+	margin: 10px 20px 10px 0;
+	width: 100px;
+}
+footer .info{
+	font-family: RobotoRegular, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 30px 0 10px;
+}
+footer p{
+	margin-bottom: 5px;
+}
+.clear{
+	clear: both;
+}
